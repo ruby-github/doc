@@ -17,12 +17,21 @@ Y:=(HIGH+LOW)/2;
 
 Y:=(HIGH+LOW)/2;
 
-AO  : MA(Y,5) - MA(Y,34);
+AO  : MA(Y,5) - MA(Y,34), COLORSTICK;
 AC  : AO - MA(AO,5);
-AO1 : AO, COLORSTICK;
 
 STICKLINE(AO>=REF(AO,1), 0, AO, 0.8, 1), COLORRED;
 STICKLINE(AO<REF(AO,1), 0, AO, 0.8, 1), COLORGREEN;
+
+// 加速震荡指标(AC)
+
+Y:=(HIGH+LOW)/2;
+
+AO  : MA(Y,5) - MA(Y,34);
+AC  : AO - MA(AO,5), COLORSTICK;
+
+STICKLINE(AC>=REF(AC,1), 0, AC, 0.8, 1), COLORRED;
+STICKLINE(AC<REF(AC,1), 0, AC, 0.8, 1), COLORGREEN;
 
 // 指数平滑异同平均线(MACD)(26, 12, 9)
 
@@ -54,12 +63,21 @@ Y:=(HIGH+LOW)/2;
 
 Y:=(HIGH+LOW)/2;
 
-AO  : MA(Y,5) - MA(Y,34);
+AO  : MA(Y,5) - MA(Y,34), COLORSTICK;
 AC  : AO - MA(AO,5);
-AO1 : AO, COLORSTICK;
 
 STICKLINE(AO>=REF(AO,1), 0, AO, 0.8, 1), 0, COLORRED;
 STICKLINE(AO<REF(AO,1), 0, AO, 0.8, 1), 0, COLORGREEN;
+
+// 加速震荡指标(AC)
+
+Y:=(HIGH+LOW)/2;
+
+AO  : MA(Y,5) - MA(Y,34);
+AC  : AO - MA(AO,5), COLORSTICK;
+
+STICKLINE(AC>=REF(AC,1), 0, AC, 0.8, 1), 0, COLORRED;
+STICKLINE(AC<REF(AC,1), 0, AC, 0.8, 1), 0, COLORGREEN;
 
 // 指数平滑异同平均线(MACD)(26, 12, 9)
 

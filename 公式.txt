@@ -24,6 +24,17 @@ Windows 10 密钥：
 
 // ---------------------------------------------------------
 
+// 均线系统(布林带)
+
+MA5 : MA(CLOSE, 5),  COLORGREEN;
+MA10: MA(CLOSE, 10), COLORRED;
+MA30: MA(CLOSE, 30), COLORBLUE;
+MA60: MA(CLOSE, 60), COLORCYAN;
+
+布林线    : MA(CLOSE, 26), DOT, COLORWHITE;
+布林线上限: 布林线 + 2*STD(CLOSE, 26), DOT, COLORRED;
+布林线下限: 布林线 - 2*STD(CLOSE, 26), DOT, COLORGREEN;
+
 // 鳄鱼线
 
 Y := (HIGH + LOW)/2;

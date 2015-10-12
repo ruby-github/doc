@@ -1,17 +1,10 @@
-北油所 mall.bpex.com.cn BZ0040192F
-海峡油 108956020151137 dp0221 dp0251
-光铭大宗 gm83270062
-千凡珠宝 009158
-
-京顺大宗 8880619002
+﻿北油所 mall.bpex.com.cn BZ0040192F
 瑞秦大宗 1015101001 返佣 fy1015101 后台 1015101
 
 贵州西南大宗 095000100063029
-
-易汇通
-行情软件账号： fx177165
-行情软件密码： 359983
-交易工场账号： jack2015
+上海长江联合 180873045877
+  后台 180_115080 http://e.cjmex.cn/member_b
+  开户 http://portal.cjmex.cn/SelfOpenAccount/first.jsp?memNo=180
 
 Windows 10 密钥：
 

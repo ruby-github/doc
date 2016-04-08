@@ -8,6 +8,9 @@
 上海长江联合 180873045877
   后台 180_115080 http://e.cjmex.cn/member_b
   开户 http://portal.cjmex.cn/SelfOpenAccount/first.jsp?memNo=180
+  
+南宁（中国—东盟）商品交易所 
+  后台 111011180 https://otc.chinancce.com:3111/jfsp/login.do
 
 Windows 10 密钥：
 

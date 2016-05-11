@@ -1,4 +1,15 @@
-﻿北油所 mall.bpex.com.cn BZ0040192F
+中苏商品 128599513443920
+
+南宁(中国—东盟) 111011180000001
+  后台 111011180 https://otc.chinancce.com:3111/jfsp/login.do
+
+大连再生资源 029900000000358
+  后台 029015348 http://118.145.4.142:16928/brokerage/logon.jsp
+  开户 http://118.145.4.142:16927/SelfOpenAccount/firmController.fir?funcflg=getMember&memNo=029
+
+// ---------------------------------------------------------
+
+北油所 mall.bpex.com.cn BZ0040192F
 瑞秦大宗 1015101001 返佣 fy1015101 后台 1015101
 
 贵州西南大宗 266016010000001 (266 贵州鹏鑫商品经营有限公司)
@@ -8,40 +19,15 @@
 上海长江联合 180873045877
   后台 180_115080 http://e.cjmex.cn/member_b
   开户 http://portal.cjmex.cn/SelfOpenAccount/first.jsp?memNo=180
-  
-南宁（中国—东盟）商品交易所 111011180000001
-  后台 111011180 https://otc.chinancce.com:3111/jfsp/login.do
-
-Windows 10 密钥：
-
-8N67H-M3CY9-QT7C4-2TR7M-TXYCV
-
-家庭版：TX9XD-98N7V-6WMQ6-BX7FG-H8Q99
-单语言家庭版：7HNRX-D7KGG-3K4RQ-4WPJ4-YTDFH
-特定国家家庭版：PVMJN-6DFY6-9CCP6-7BKTT-D3WVR
-专业版：W269N-WFGWX-YVC9B-4J6C9-T83GX
-企业版：NPPR9-FWDCX-D2C8J-H872K-2YT43
-教育版：NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
 
 // ---------------------------------------------------------
 
-// 均线系统(布林带)
+// 均线系统
 
 MA5 : MA(CLOSE, 5),  COLORGREEN;
 MA10: MA(CLOSE, 10), COLORRED;
 MA30: MA(CLOSE, 30), COLORBLUE;
 MA60: MA(CLOSE, 60), COLORCYAN;
-
-布林线    : MA(CLOSE, 26), DOT, COLORWHITE;
-布林线上限: 布林线 + 2*STD(CLOSE, 26), DOT, COLORRED;
-布林线下限: 布林线 - 2*STD(CLOSE, 26), DOT, COLORGREEN;
-
-// 均线系统(双龙)
-
-EMA14 : EMA(CLOSE, 14),  COLORGREEN;
-EMA42 : EMA(CLOSE, 42),  COLORRED;
-EMA144: EMA(CLOSE, 144), COLORBLUE;
-EMA169: EMA(CLOSE, 169), COLORCYAN;
 
 // 鳄鱼线
 
